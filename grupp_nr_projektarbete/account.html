@@ -27,6 +27,10 @@
   <link rel="stylesheet" href="./styles/grid/grid.css" />
   <link rel="stylesheet" href="./styles/layout/layout.css" />
   <link rel="stylesheet" href="./styles/pages/account.css" />
+  <!-- extra -->
+  <link rel="stylesheet" href="./styles/components/large/card.css" />
+
+
 </head>
 
 <body>
@@ -84,24 +88,84 @@
           </div>
         </div>
         <!-- Kod till card-komponenten ska in här. Kom ihåg att det är tre stycken cards -->
-        <div class = "card">
-          <div class="card__heading">
+        <!-- card 1 -->
+        <div class = "card card--danger">
+          <div class="card__header">
             <h3>Web Designer</h3>
             <p>with experience to boot</p>
+
+            <div class="card__icon">
+              <!-- globe icon -->
+              <img src="./img/informative/icons/globe.svg" alt="bild på globe icon">
+            </div>
+          </div>
+          
+          <div class="card__main"> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+          </div>
+
+          <div class="card__footer">
+            <a class = "card__link" href="#">Read more</a>
           </div>
         </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
-          repellat, rem itaque facilis inventore, commodi
-        </p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
-          repellat, rem itaque facilis inventore, commodi
-        </p>
-hoho
 
+        <!-- card 2 -->
+        <div class = "card card--success">
+          <div class="card__header">
+            <h3>Retocuher</h3>
+            <p>with high and custumers</p>
 
+            <div class="card__icon">
+              <!-- wand icon -->
+              <img src="./img/informative/icons/wand.svg" alt="bild på globe icon">
+            </div>
+          </div>
+          
+          <div class="card__main"> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+          </div>
 
+          <div class="card__footer">
+            <a class = "card__link" href="#">Read more</a>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class = "card">
+          <div class="card__header">
+            <h3>Teacher</h3>
+            <p>driven by the data and people</p>
 
+            <div class="card__icon">
+              <!-- miscellaneous icon -->
+              <img src="./img/informative/icons/miscellaneous.svg" alt="bild på globe icon">
+            </div>
+          </div>
+          
+          <div class="card__main"> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique,
+              repellat, rem itaque facilis inventore, commodi
+            </p>
+          </div>
 
+          <div class="card__footer">
+            <a class = "card__link" href="#">Read more</a>
+          </div>
+          
+        </div>
+  
       </div>
     </section>
     <section class="container container--bg-sea-spray container--bg-blur-4 container--bg-danger-gradient container--bg-blend-color container--skew-right" aria-labelledby="courseActivity">

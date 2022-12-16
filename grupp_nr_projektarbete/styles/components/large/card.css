@@ -1,0 +1,29 @@
+@import "../../variables/variables.css";
+
+.card__header h3{
+    /* background-color:(var(--hue-3) 60%, 40%); */
+    
+    /* background-color:red; */
+}
+.card__header{
+    background-color: hsl(var(--hue-3) 40% 60%);
+}
+.card__icon{
+    
+}
+.card__link{
+    border: solid 2px;
+    border-radius: 1rem;
+
+}
+
+
+/* Hej!
+
+Det absolut största målet är såklart att klara uppgiften och lära oss mer kring komponentdriven design. 
+
+Vi kommer att jobba mycket tillsammans och gemensamt koda. Första steget är att jobba undan så mycket som möjligt inför jul. 
+
+Första målet är att samtliga medlemmar ska lära sig mer kring BEM. 
+
+Överenskomna tider för arbete är mellan 08-16/17. Överenskommet att till störst del köra genom distans. */
